@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAYMENT</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+  <form>
+    <div class="container-main">
+      <div class="billing-payment">
+        <h3 class="bill">BILLING ADDRESS</h3>
+        <h3 class="pay">PAYMENT</h3>
+      </div>
+
+      <div class="name-cards">
+        <div class="name">
+          <label for="fname">Full Name</label>
+          <input type="text" name="name" id="fname" placeholder="Aminu Yusuf">
+        </div>
+
+        <div class="cards-accept">
+          <label for="cards">Cards Accepted</label>
+          <img src="#">
+        </div>
+      </div>
+
+      <div class="email-nameOnCard">
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="@yahoo.com">
+        </div>
+
+        <div class="nameOnCard">
+          <label for="nameOnCard">Name On card</label>
+          <input type="text" name="nameOnCard" id="nameOnCard" placeholder="Aminu Yusuf">
+        </div>
+      </div>
+
+      <div class="address-creditCard">
+        <div class="address">
+          <label for="text">Address</label>
+          <input type="address" name="address" id="address" placeholder="Street">
+        </div>
+
+        <div class="creditCard">
+          <label for="creditCard">Credit Card Number</label>
+          <input type="number" name="creditCard" id="creditCard" placeholder="1111 3333 5555 8888">
+        </div>
+      </div>
+
+      <div class="city-expire">
+        <div class="city">
+          <label for="city">City</label>
+          <input type="text" name="city" id="city">
+        </div>
+
+        <div class="exp-month">
+          <label for="month">Expire Month</label>
+          <select>
+            <option hidden>-Select-</option>
+            <option value="">Jan</option>
+            <option value="">Feb</option>
+            <option value="">Mar</option>
+            <option value="">Apr</option>
+            <option value="">May</option>
+            <option value="">Jun</option>
+            <option value="">Jul</option>
+            <option value="">Aug</option>
+            <option value="">Sept</option>
+            <option value="">Oct</option>
+            <option value="">Nov</option>
+            <option value="">Dec</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="state-zip-ExpYear-CVV">
+        <div class="state-zip">
+          <div class="state">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state">
+          </div>
+
+          <div class="zip-code">
+            <label for="zip">Zip code</label>
+            <input type="text" name="zip" id="zip">
+          </div>
+        </div>
+
+        <div class="expYear-CVV">
+          <div class="exp-Year">
+            <label for="year">Exp. Year</label>
+            <input type="number" name="year" id="year">
+          </div>
+
+          <div class="cvv">
+            <label for="cvv">CVV</label>
+            <input type="number" name="cvv" id="cvv">
+          </div>
+        </div>
+      </div>
+      
+      <div class="submit-button"> 
+        <button value="Submit" >Submit</button>
+      </div>
+
+      <!-- <div class="submit-button">
+        <input  class="btn"type="button" value="Submit" >
+      </div>  -->
+        
+      <!-- <button class="submit-button">
+        Submit
+      </button>  -->
+    </div>
+  </form>
+</body>
+</html> 

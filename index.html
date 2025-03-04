@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="p-tag">Hello</p>
+  <h3 class="h3">This is H3</h3>
+  <h3> h3</h3>
+
+  <h1>My Name is Muhammad</h1>
+  <script>
+    console.log('hello worldn');
+    document.getElementById('p-tag').innerHTML = 'welcome home';
+
+    document.querySelector("h1").style.color = "Blue";
+
+    // const h3 = document.getElementsByClassName("h3")[0].innerHTML = "lkhjgfdsa"
+    // console.log(h3)
+     document.getElementsByClassName("h3")[0].innerHTML = 'Text changed!';
+    
+    document.getElementsByTagName('h3')[1].innerHTML = 'Text unchanged!';
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+  background-color: violet;
+  
+  
+}
+form{
+  
+  background-color: white;
+  
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px ;
+  margin: auto;
+  box-sizing:border-box;
+  width: 450px;
+  
+  
+}
+
+.billing-payment{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.name-cards,
+.email-nameOnCard,
+.address-creditCard,
+.city-expire{
+  display: flex;
+  padding-block: 10px;
+  
+ 
+}
+
+
+.cards-accept,
+.nameOnCard,
+.creditCard,
+.exp-month,
+.exp-Year,
+.cvv
+{
+  padding-left: 50px;
+}
+.pay{
+  padding-left: 70px;
+}
+label, input{
+  display: flex;
+  width: 182px;
+  height: 30px;
+  border-color: grey;
+  
+  
+  
+}
+.submit-button button  {
+  width: 100%;
+  text-align: center;
+  background-color:blueviolet;
+  border: none;
+  height: 30px;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: white;
+  
+}
+
+/* .btn{
+  width: 100%;
+  text-align: center;
+  background-color:blueviolet;
+  border: none;
+  height: 30px;
+  border-radius: 6px;
+  padding-top: 10;
+  
+} */
+
+
+.submit-button button:hover{
+  background-color: violet;
+  cursor: pointer;
+  
+}
+
+.state-zip-ExpYear-CVV{
+  display: flex;
+}
+
